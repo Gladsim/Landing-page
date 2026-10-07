@@ -1,0 +1,222 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.menuBar {
+    background-color: #142e46;
+    background: linear-gradient(180deg, #142e46, #102437)
+}
+.childMenubar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 150px;
+    padding: 10px 0;
+    color: #ffffff;
+}
+
+.childMenubar input {
+    height: 25px;
+    width: 200px;
+    font-family: Arial;
+    font-size: 15px;
+    background: #142e46;
+    color: #ffffff;
+    border-radius: 5px;
+    border-color: #ffffff;
+}   
+.childMenubar button {
+    height: 25px;
+    width: 50px;
+    font-size: 10px;
+    color: #ffffff;
+    border-radius: 10px;
+    background-color: #274563;
+    cursor: pointer;
+}
+
+.childMenubar button:hover {
+    background: #2966ca;
+}
+
+.logoDirgapala-img{
+    width: 75px;
+    height: 75px;
+    padding: 0px 0px;
+    background: #ffffff;
+    border-radius: 50px;
+}
+
+h1 {
+    font-family: Arial;
+    font-size: 30px;
+    color: #ff7700;
+}
+
+.menuItem {
+    display: flex;
+    gap: 24px;
+}
+.menuItem a {
+    text-decoration: none;
+    color: #ffffff;
+    opacity: 0.9;
+}
+
+.banner-1 {
+    /*max-width:960px;
+    margin: 0 auto;
+    padding: 40px 20px;*/
+    
+    background: linear-gradient(315deg, #0e4c86, #102334)
+    /*margin-top: 0px;
+    padding: 200px;
+    background-color: #17232f;
+    position: relative;
+    overflow: hidden;
+   /* margin: 0 150px;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;*/
+}
+
+.childBanner-1 {
+    /*margin: 0 50px;*/
+    padding: 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.txtBanner-1 {
+    margin: 0 150px;
+    color: #f9faf8;
+}
+
+.txtBanner-1 h2 {
+    font-size:48px;
+    font-weight: 900;
+}
+
+.txtBanner-1 p {
+    font-size: 18px;
+}
+
+.txtBanner-1 button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    margin-top: 5px;
+    padding: 5px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.txtBanner-1 button:hover {
+    background: #2966ca;
+}
+
+.banner-img {
+    width: 900px;
+    display: flex;
+    /*padding: 20px 20px;
+    border-radius: 12px;
+    background: linear-gradient(120deg, #ff7700, #c75d00);*/
+}
+
+.banner-img:hover {
+    background  : #c3c3c3;
+}
+
+.divisi h2 {
+    font-family: Arial;
+    font-size: 30px;
+    color: #3683ff;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.itemList {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.item img{
+    margin: 10px 100px;
+    width: 300px;
+    border-radius: 20px;
+    background: #fff;
+    padding: 10px 10px;
+    box-shadow: 0 10px 25px 25px rgba(15, 23, 42, 0.08);
+}
+
+.item p {
+    margin: 0px 50px;
+    border-radius: 20px;
+    background: #ff7700;
+    color: white;
+    padding: 10px;
+    width: 400px;
+    height: auto;
+    text-align: justify;
+    box-shadow: 0 10px 25px 25px rgba(15, 23, 42, 0.08);
+}
+
+.call {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    margin:50px 0;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: #3683ff;
+    width: 600px;
+    height: 100px;
+    border-radius: 10px;
+    padding: 0 20px;
+}
+
+.card button {
+    background-color: #3683ff;
+    color: #ffffff;
+    padding: 5px 16px;
+    border-radius: 5px;
+    font-weight: 600;
+    border: 2px solid;
+    border-color: #ffffff;
+    cursor: pointer;
+}
+
+.txtCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.txtCard h4 {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.txtCard p {
+    color: #ffffff;
+}
+
+.card button:hover {
+    background: #2966ca;
+}
+
+footer {
+    background-color: #102437;
+    padding: 20px 0;
+    text-align: center;
+    color: #ffffff;
+}
